@@ -62,7 +62,6 @@ public class Game {
                             return -1;
                         return 0;})
                     .distinct()
-                    .sorted()
                     .toList();
             this.possibleWords.clear();
             this.possibleWords.addAll(foundPossibleWords);
